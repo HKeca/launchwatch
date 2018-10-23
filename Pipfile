@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 flask = "*"
+numpy = "*"
+requests = "*"
+selenium = "*"
+chromedriver-binary = "*"
 
 [dev-packages]
 pylint = "*"
