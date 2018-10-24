@@ -1,6 +1,7 @@
 import os
 
 from flask import Flask
+from flask import jsonify
 
 app = Flask(__name__)
 app.config.from_mapping(
@@ -10,4 +11,4 @@ app.config.from_mapping(
 
 @app.route('/')
 def root():
-    return 'this is the root endpoint'
+    return jsonify({'endpoint': 'root'})

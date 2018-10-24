@@ -17,10 +17,10 @@ args = parser.parse_args()
 
 if args.development:
     print('Launching Flask in development mode...')
-    os.environ['FLASK_APP'] = 'launchwatch'
+    os.environ['FLASK_APP'] = 'launchwatch/app'
     os.environ['FLASK_ENV'] = 'development'
     os.system('flask run')
 else:
     print('Launching Flask...')
-    os.environ['FLASK_APP'] = 'launchwatch'
+    os.environ['FLASK_APP'] = 'launchwatch/app'
     os.system('flask run')
