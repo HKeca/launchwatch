@@ -9,6 +9,7 @@ numpy = "*"
 requests = "*"
 selenium = "*"
 chromedriver-binary = "*"
+"bs4" = "*"
 
 [dev-packages]
 pylint = "*"

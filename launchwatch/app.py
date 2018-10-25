@@ -1,3 +1,5 @@
+""" Main LaunchWatch app module. """
+
 import os
 
 from flask import Flask
