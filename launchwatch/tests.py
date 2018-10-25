@@ -1,0 +1,4 @@
+""" LaunchWatch tests. """
+
+import unittest
+
